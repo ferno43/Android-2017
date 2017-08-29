@@ -8,11 +8,19 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        String nombre="Fernando";
-        String apellido=" Lopez";
+        //String nombre="Fernando";
+        //String apellido=" Lopez";
+        int numtortas=3;
+        int precio=40;
+        int total=numtortas*precio;
         super.onCreate(savedInstanceState);
-        Toast toast=Toast.makeText(this,(nombre+" "+apellido), Toast.LENGTH_LONG);
-        toast.show();
+        if (total>80){
+            Toast toast = Toast.makeText(this, "Tiene una soda gratis", Toast.LENGTH_LONG);
+            toast.show();
+        }else{
+            Toast toast = Toast.makeText(this, "No tiene una soda gratis", Toast.LENGTH_LONG);
+            toast.show();
+        }
         setContentView(R.layout.activity_main);
     }
 }
