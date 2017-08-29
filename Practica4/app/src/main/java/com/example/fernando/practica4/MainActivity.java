@@ -8,9 +8,10 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        String nombre="Fernando";
+        String apellido=" Lopez";
         super.onCreate(savedInstanceState);
-        super.onCreate(savedInstanceState);
-        Toast toast=Toast.makeText(this,"cadena", Toast.LENGTH_LONG);
+        Toast toast=Toast.makeText(this,(nombre+" "+apellido), Toast.LENGTH_LONG);
         toast.show();
         setContentView(R.layout.activity_main);
     }
