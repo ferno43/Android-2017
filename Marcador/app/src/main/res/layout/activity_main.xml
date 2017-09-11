@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fernando.marcador.MainActivity">
+
+    <TextView
+        android:id="@+id/j1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="Jugador 1" />
+
+    <TextView
+        android:id="@+id/j2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jugador 2"
+        android:layout_below="@+id/r1"
+        android:layout_alignStart="@+id/j1"
+        android:layout_marginTop="87dp" />
+
+    <Button
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/j1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="SUMAR" />
+
+    <Button
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/s1"
+        android:layout_below="@+id/s1"
+        android:layout_marginTop="20dp"
+        android:text="RESTAR" />
+
+    <Button
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/r1"
+        android:layout_alignTop="@+id/j2"
+        android:layout_marginTop="46dp"
+        android:text="SUMAR" />
+
+    <Button
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/s2"
+        android:layout_below="@+id/s2"
+        android:layout_marginTop="18dp"
+        android:text="RESTAR" />
+
+    <TextView
+        android:id="@+id/m1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="0"
+        android:layout_below="@+id/r1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/m2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="0"
+        android:layout_below="@+id/r2"
+        android:layout_alignStart="@+id/m1" />
+</RelativeLayout>
