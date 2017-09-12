@@ -39,7 +39,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int a=Integer.parseInt(m1.getText().toString());
                 int total=a+1;
-                m1.setText(String.valueOf(total));
+                if(total==15){
+                    m1.setText(String.valueOf("0"));
+                    m2.setText(String.valueOf("0"));
+                    Toast.makeText(getApplicationContext(), "Jugador 1 gano", Toast.LENGTH_LONG).show();
+                }else{
+                m1.setText(String.valueOf(total));}
             }
         });
 
@@ -59,7 +64,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int a=Integer.parseInt(m2.getText().toString());
                 int total=a+1;
-                m2.setText(String.valueOf(total));
+                if(total==15){
+                    m1.setText(String.valueOf("0"));
+                    m2.setText(String.valueOf("0"));
+                    Toast.makeText(getApplicationContext(), "Jugador 2 gano", Toast.LENGTH_LONG).show();
+                }else{
+                    m2.setText(String.valueOf(total));}
             }
         });
 
