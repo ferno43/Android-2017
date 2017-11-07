@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1047432964230",
+    "firebase_url": "https://practicanotificaciones.firebaseio.com",
+    "project_id": "practicanotificaciones",
+    "storage_bucket": "practicanotificaciones.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047432964230:android:9f1d763d866b9df7",
+        "android_client_info": {
+          "package_name": "com.example.fernando.practicanotificaciones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047432964230-tnjkf03ndhsb4hf1otujgruu8voessml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fernando.practicanotificaciones",
+            "certificate_hash": "235dc9ff4aa11944cc21a3d37a010b39d1deca13"
+          }
+        },
+        {
+          "client_id": "1047432964230-vptfd72pjpe0ilpvqpesqsglpjm380et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCG1xsttoab1Qw7LBOA_dxitK_oN402UmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047432964230-vptfd72pjpe0ilpvqpesqsglpjm380et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
