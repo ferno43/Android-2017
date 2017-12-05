@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                 lista.setVisibility(View.VISIBLE);
                 String especialidad = (String) spinnerEsp.getSelectedItem();
                 JsonURL="http://fernandolopez1.esy.es/slimapi/public/query10/"+especialidad;
-                if(pos!=0){
+                //if(pos!=0){
                 spinnerHosp.setSelection(0);
 
 
@@ -119,7 +119,8 @@ public class MainActivity extends AppCompatActivity {
                 requestQueue.add(obreq);
 
 
-            }}
+            //}
+        }
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
@@ -129,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                 lista.setVisibility(View.VISIBLE);
                 String hospital = (String) spinnerHosp.getSelectedItem();
                 JsonURL="http://fernandolopez1.esy.es/slimapi/public/query11/"+hospital;
-                if(pos!=0){
+                //if(pos!=0){
                     spinnerEsp.setSelection(0);
                 //Toast.makeText(getApplicationContext(), JsonURL, Toast.LENGTH_SHORT).show();
 
@@ -203,7 +204,8 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-            }}
+            //}
+            }
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
